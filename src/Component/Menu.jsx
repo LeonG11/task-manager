@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
-import React from "react";
+import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
+import ElectricBoltIcon from "@mui/icons-material/ElectricBolt";
+import GradeIcon from "@mui/icons-material/Grade";
 import RoofingIcon from "@mui/icons-material/Roofing";
 import WorkIcon from "@mui/icons-material/Work";
-import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
-import GradeIcon from "@mui/icons-material/Grade";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import ElectricBoltIcon from "@mui/icons-material/ElectricBolt";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
@@ -47,7 +46,7 @@ function Menu() {
         </li>
       </ul>
       <div className="menu__subscribe">
-        <img src="../assets/mood.png" alt="" className="menu__subscribe__img" />
+        <img src="./assets/mood.png" alt="" className="menu__subscribe__img" />
         <div className="menu__subscribe__header">Премиум подписка</div>
         <div className="menu__subscribe__text">
           Купи подписку и получи доступ к новым курсам

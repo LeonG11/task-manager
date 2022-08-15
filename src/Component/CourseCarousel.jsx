@@ -1,5 +1,10 @@
 import React from "react";
 import Course from "./Course";
+import LanguageIcon from '@mui/icons-material/Language';
+import CodeIcon from '@mui/icons-material/Code';
+import QrCodeIcon from '@mui/icons-material/QrCode';
+import HtmlIcon from '@mui/icons-material/Html';
+import JavascriptIcon from '@mui/icons-material/Javascript';
 
 export default function CourseCarousel() {
   return (
@@ -50,7 +55,11 @@ export default function CourseCarousel() {
             <div className="course__grid__start">Начало</div>
             <div className="course__grid__rate">Рейтинг</div>
             <div className="course__grid__level">Уровень</div>
-            <Course name="Web Design" lesson="10" start="12 Мая" rate="4.8" level="Начинающий" />
+            <Course name="Web Design" lesson="10" start="12 Мая" rate="4.8" level="Начинающий" icon={<LanguageIcon/>} />
+            <Course name="Development basic" lesson="8" start="14 Мая" rate="4.4" level="Стартовый" icon={<CodeIcon/>}/>
+            <Course name="Data with Python" lesson="5" start="17 Мая" rate="4.6" level="Стартовый" icon={<QrCodeIcon/>}/>
+            <Course name="HTML basic" lesson="12" start="26 Мая" rate="4.7" level="Начинающий" icon={<HtmlIcon/>}/>
+            <Course name="JavaScript" lesson="8" start="30 Мая" rate="4.9" level="Начинающий" icon={<JavascriptIcon/>}/>
         </div>
       </div>
     </div>

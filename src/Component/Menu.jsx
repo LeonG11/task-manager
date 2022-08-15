@@ -11,7 +11,7 @@ function Menu() {
     <div className="menu">
       <h1 className="menu__header">
         <ElectricBoltIcon />
-        <div style={{ marginLeft: "10px" }}>Marble academy</div>
+        <div className="menu__div" style={{ marginLeft: "10px" }}>Marble academy</div>
       </h1>
       <ul className="menu__ul">
         <li>

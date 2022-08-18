@@ -309,12 +309,51 @@ body {
   }
 }
 
-.CourseProgress__block{
+.CourseProgress__block {
   background-color: #8a70d6;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   margin-top: 0.5rem;
+  height: 4rem;
+  button {
+    margin-left: 35%;
+    background: none;
+    border: none;
+    filter: invert(100%);
+  }
+  &__name{
+    font-size: 16px;
+  }
+  &__lesson{
+    font-size: 12px;
+    margin-top: 0.25rem;
+    font-weight: 300;
+  }
+}
+
+.CourseProgress__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  &__percent{
+    margin-left: -40%;
+    margin-right: 20%;
+  }
+  div{
+    white-space: nowrap;
+    color:white;
+  }
+}
+
+.progress__ring__circle {
+  &__up {
+    stroke: #ffffff;
+    stroke-linecap: round;
+  }
+  &__back {
+    stroke: #424040;
+  }
 }

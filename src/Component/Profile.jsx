@@ -25,7 +25,7 @@ export default function Profile() {
       }`}
       </style>
       <Calendar onChange={setCalendarValue} value={calendarValue} />
-      <CourseProgress name="Styling with css" />
+      <CourseProgress name="Styling with css" value="90" />
     </div>
   );
 }

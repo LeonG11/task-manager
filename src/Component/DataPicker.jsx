@@ -6,7 +6,7 @@ export default function DataPicker() {
     <div className="dataPicker">
       <div className="dataPicker__head">
         <div className="month">{currentDate.getMonth().toString()}</div>
-        <button className="dataPicker__btn" onClick={()=>setCurrentDate(Date().setDate(1))}></button>
+        <button className="dataPicker__btn"></button>
         <button className="dataPicker__btn">-</button>
       </div>
       <div className="dataPicker__grid">

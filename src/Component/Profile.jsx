@@ -19,13 +19,11 @@ export default function Profile() {
         <div className="profile__name">Kirill Kachanov</div>
         <div className="profile__status">Advanced</div>
       </div>
-      <style>
-        {`.react-calendar{
-            width:100%;
-      }`}
-      </style>
-      <Calendar onChange={setCalendarValue} value={calendarValue} />
-      <CourseProgress name="Styling with css" value="90" lesson="12"  />
+      <Calendar onChange={setCalendarValue} value={calendarValue}/>
+      <h3 style={{ marginTop: "1rem" }}>Домашнее задание</h3>
+      <CourseProgress name="Styling with css" value="90" lesson="12" />
+      <CourseProgress name="Basics of programming" value="65" lesson="18" />
+      <CourseProgress name="Learn to Programm of Java" value="25" lesson="10" />
     </div>
   );
 }
